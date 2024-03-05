@@ -32,6 +32,8 @@ export interface Options {
 
 export interface BarcodeProps extends Options {
   value: string;
+  id?: string;
+  className?: string;
 }
 
 export default class Barcode extends React.Component<BarcodeProps> {
